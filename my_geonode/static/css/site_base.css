@@ -1,0 +1,36 @@
+.home .navbar-inverse {
+    background-color: #fff;
+}
+.navbar-inverse {
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
+.navbar-brand {
+    background:url(../img/logo.png) 0 10px no-repeat;
+    background-size:70%;
+    text-indent:-9999px;
+    height:65px;
+    width:200px
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #000;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    font-style: bold;
+    color: #5BC0DE;
+    background-color: #fff;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    color: #5BC0DE;
+    background-color: #fff;
+}
+
+
+.navbar-nav .dropdown-menu {
+    color: #000;
+    background-color: #fff;
+    border-top: 1px solid #2c689c;
+}
